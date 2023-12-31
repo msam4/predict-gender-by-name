@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #7e5eff;
+  background-color: #A1EEBD;
 }
 
 .container {
@@ -50,10 +50,18 @@ body {
 }
 
 #submit {
-  background-color: #7e5eff;
+  background-color: #A1EEBD;
   color: #ffffff;
   border: none;
   border-radius: 0.5em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#submit:hover {
+  background-color: #ffffff;
+  color: #020202;
+  border: 2px solid #A1EEBD;
 }
 
 .female {
